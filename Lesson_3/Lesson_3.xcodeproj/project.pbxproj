@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164154F325BDF74300FB9F69 /* QTNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 164154F225BDF74300FB9F69 /* QTNews.m */; };
 		1697AEAC25BC9886001DE358 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697AEAB25BC9886001DE358 /* AppDelegate.m */; };
 		1697AEAF25BC9886001DE358 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697AEAE25BC9886001DE358 /* SceneDelegate.m */; };
 		1697AEB225BC9886001DE358 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697AEB125BC9886001DE358 /* ViewController.m */; };
 		1697AEB725BC988A001DE358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1697AEB625BC988A001DE358 /* Assets.xcassets */; };
 		1697AEBA25BC988A001DE358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1697AEB825BC988A001DE358 /* LaunchScreen.storyboard */; };
 		1697AEBD25BC988A001DE358 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697AEBC25BC988A001DE358 /* main.m */; };
+		16ABFBA325BCA466001F21CF /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ABFBA225BCA466001F21CF /* ApiManager.m */; };
+		16ABFBA625BCAEC3001F21CF /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ABFBA525BCAEC3001F21CF /* NewsTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		164154F125BDF74300FB9F69 /* QTNews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTNews.h; sourceTree = "<group>"; };
+		164154F225BDF74300FB9F69 /* QTNews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTNews.m; sourceTree = "<group>"; };
 		1697AEA725BC9886001DE358 /* Lesson_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1697AEAA25BC9886001DE358 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1697AEAB25BC9886001DE358 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,6 +32,10 @@
 		1697AEB925BC988A001DE358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1697AEBB25BC988A001DE358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1697AEBC25BC988A001DE358 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16ABFBA125BCA466001F21CF /* ApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
+		16ABFBA225BCA466001F21CF /* ApiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
+		16ABFBA425BCAEC3001F21CF /* NewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		16ABFBA525BCAEC3001F21CF /* NewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		164154F425BDF76E00FB9F69 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				164154F125BDF74300FB9F69 /* QTNews.h */,
+				164154F225BDF74300FB9F69 /* QTNews.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
 		1697AE9E25BC9886001DE358 = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +81,13 @@
 				1697AEAB25BC9886001DE358 /* AppDelegate.m */,
 				1697AEAD25BC9886001DE358 /* SceneDelegate.h */,
 				1697AEAE25BC9886001DE358 /* SceneDelegate.m */,
+				16ABFBA125BCA466001F21CF /* ApiManager.h */,
+				16ABFBA225BCA466001F21CF /* ApiManager.m */,
 				1697AEB025BC9886001DE358 /* ViewController.h */,
 				1697AEB125BC9886001DE358 /* ViewController.m */,
+				16ABFBA425BCAEC3001F21CF /* NewsTableViewCell.h */,
+				16ABFBA525BCAEC3001F21CF /* NewsTableViewCell.m */,
+				164154F425BDF76E00FB9F69 /* News */,
 				1697AEB625BC988A001DE358 /* Assets.xcassets */,
 				1697AEB825BC988A001DE358 /* LaunchScreen.storyboard */,
 				1697AEBB25BC988A001DE358 /* Info.plist */,
@@ -142,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16ABFBA325BCA466001F21CF /* ApiManager.m in Sources */,
 				1697AEB225BC9886001DE358 /* ViewController.m in Sources */,
+				16ABFBA625BCAEC3001F21CF /* NewsTableViewCell.m in Sources */,
 				1697AEAC25BC9886001DE358 /* AppDelegate.m in Sources */,
+				164154F325BDF74300FB9F69 /* QTNews.m in Sources */,
 				1697AEBD25BC988A001DE358 /* main.m in Sources */,
 				1697AEAF25BC9886001DE358 /* SceneDelegate.m in Sources */,
 			);
